@@ -1,0 +1,519 @@
+<!DOCTYPE html >
+<html lang="ro">
+<head>
+	<title>Evenimente</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/EvStyle.css">
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+   <link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+   <link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+   <link rel="stylesheet"  href="style.css" >
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+   <script src="/sicopan/EvScripts"></script> 
+
+  
+
+   <script src="EvScripts"></script> 
+
+  
+
+   <!-- Swiper CSS -->
+   <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+</head>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-large w3-padding-l ">
+   <div class="w3-bar" id="myNavbar">
+       <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right w3-creme"
+           href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+           <i class="fa fa-bars"></i>
+       </a>
+       <a class="w3-bar-item  " href="index.html" style="padding-left: 0%; padding-top: 0%; padding-bottom: 0%;"> <img style="height: 45px; width: 100px; " src="images/sicopan.png" alt="Sicopan"></a>
+       <a href="#CB" class="w3-bar-item w3-button w3-hide-small w3-creme"><i class="fa fa fa-th-large"></i> CANDY BAR</a>
+       <a href="#NUNTA"  class="w3-bar-item w3-button w3-hide-small w3-creme"><i class="fa fa-ravelry"></i> NUNTI</a>
+       <a href="#BOTEZ" class="w3-bar-item w3-button w3-hide-small w3-creme"><i class="fa fa-heart"></i> BOTEZURI</a>
+       
+       <a href="Torturi.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-creme"><i class="fa fa-birthday-cake"></i> TORTURI</a>
+       <a href="Prajituri.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-creme"><i class="fa fa-th"></i> PRAJITURI</a>
+       <a href="evenimente.html"  class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-creme"><i class="fa fa-user"></i> EVENIMENTE</a>
+      
+       
+       </a>
+   </div>
+ 
+ 
+       <!-- Navbar on small screens -->
+       <div id="navDemo" class="w3-bar-block w3-creme-bg w3-hide w3-hide-large w3-hide-medium ">
+           <a href="#CB" class="w3-bar-item w3-button w3-burntsienna-text w3-center" onclick=toggleFunction()><i class="fa fa-th-large"></i> CANDY BAR </a>
+           <a  href="#NUNTA" class="w3-bar-item w3-button w3-burntsienna-text w3-center" onclick=toggleFunction()><i class="fa fa-ravelry"></i> NUNTI</a>
+           <a href="#BOREZ" class="w3-bar-item w3-button w3-burntsienna-text w3-center" onclick=toggleFunction()><i class="fa fa-heart"></i> BOTEZURI</a>
+           <a href="index.html#noutati" class="w3-bar-item w3-button w3-burntsienna-text w3-center" onclick=toggleFunction()><i class="fa fa-exclamation"></i> NOUTATI</a>
+           <a href="Torturi.html" class="w3-bar-item w3-button w3-burntsienna-text w3-center" onclick=toggleFunction()><i class="fa fa-birthday-cake"></i> TORTURI</a>
+           <a href="Prajituri.html" class="w3-bar-item w3-button w3-burntsienna-text w3-center" onclick=toggleFunction()><i class="fa fa-th"></i> PRAJITURI</a>
+           <a href="evenimente.html" class="w3-bar-item w3-button w3-burntsienna-text w3-center" onclick=toggleFunction()><i class="fa fa-user"></i> EVENIMENTE</a>
+           <a href="index.html#about" class="w3-bar-item w3-button w3-burntsienna-text w3-center" onclick=toggleFunction()><i class="fa fa-bookmark"></i> COMENZI</a>
+         </div>
+   </div>
+ </div>
+
+<body>
+   
+ 
+ 
+   <div class="flip-main" id="home">
+      <div class="header" id="CB">
+         <h1>Candy bar</h1>
+       </div>
+      <div class="container">
+         <div class="row">
+            <!-- flip card start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                   <div class="flip-card-front">
+                      <img src="img/1.jpg" alt="flip-card">
+                   </div>
+                   <div class="flip-card-back">
+                      <div class="text">
+                         <h3>Prajitura</h3>
+                         <p>Lorem ipsum dolor sit amet, 
+                           consectetur adipiscing elit.
+                            Sed auctor, tellus eu bibendum 
+                            malesuada, odio mi feugiat ipsum, 
+                            vel blandit enim eros et risus.
+                             Sed bibendum, velit eu euismod 
+                             viverra, velit quam faucibus augue
+                             , a convallis eros sapien id purus.</p>
+                      </div>
+                   </div>
+               </div>
+            </div>
+            <!-- flip card end -->
+            <!-- flip card start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                   <div class="flip-card-front">
+                      <img src="img/2.jpg" alt="flip-card">
+                   </div>
+                   <div class="flip-card-back">
+                     <div class="text">
+                        <h3>Prajitura</h3>
+                        <p>Lorem ipsum dolor sit amet, 
+                          consectetur adipiscing elit.
+                           Sed auctor, tellus eu bibendum 
+                           malesuada, odio mi feugiat ipsum, 
+                           vel blandit enim eros et risus.
+                            Sed bibendum, velit eu euismod 
+                            viverra, velit quam faucibus augue
+                            , a convallis eros sapien id purus.</p>
+                     </div>
+                   </div>
+               </div>
+            </div>
+            <!-- flip card end -->
+            <!-- flip card start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                   <div class="flip-card-front">
+                      <img src="img/3.jpg" alt="flip-card">
+                   </div>
+                   <div class="flip-card-back">
+                     <div class="text">
+                        <h3>Prajitura</h3>
+                        <p>Lorem ipsum dolor sit amet, 
+                          consectetur adipiscing elit.
+                           Sed auctor, tellus eu bibendum 
+                           malesuada, odio mi feugiat ipsum, 
+                           vel blandit enim eros et risus.
+                            Sed bibendum, velit eu euismod 
+                            viverra, velit quam faucibus augue
+                            , a convallis eros sapien id purus.</p>
+                     </div>
+                   </div>
+               </div>
+            </div>
+            <!-- flip card end -->
+            <!-- flip card start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                   <div class="flip-card-front">
+                      <img src="img/1.jpg" alt="flip-card">
+                   </div>
+                   <div class="flip-card-back">
+                     <div class="text">
+                        <h3>Prajitura</h3>
+                        <p>Lorem ipsum dolor sit amet, 
+                          consectetur adipiscing elit.
+                           Sed auctor, tellus eu bibendum 
+                           malesuada, odio mi feugiat ipsum, 
+                           vel blandit enim eros et risus.
+                            Sed bibendum, velit eu euismod 
+                            viverra, velit quam faucibus augue
+                            , a convallis eros sapien id purus.</p>
+                     </div>
+                   </div>
+               </div>
+            </div>
+            <!-- flip card end -->
+            <!-- flip card start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                   <div class="flip-card-front">
+                      <img src="img/2.jpg" alt="flip-card">
+                   </div>
+                   <div class="flip-card-back">
+                     <div class="text">
+                        <h3>Prajitura</h3>
+                        <p>Lorem ipsum dolor sit amet, 
+                          consectetur adipiscing elit.
+                           Sed auctor, tellus eu bibendum 
+                           malesuada, odio mi feugiat ipsum, 
+                           vel blandit enim eros et risus.
+                            Sed bibendum, velit eu euismod 
+                            viverra, velit quam faucibus augue
+                            , a convallis eros sapien id purus.</p>
+                     </div>
+                   </div>
+               </div>
+            </div>
+            <!-- flip card end -->
+            <!-- flip card start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                   <div class="flip-card-front">
+                      <img src="img/3.jpg" alt="flip-card">
+                   </div>
+                   <div class="flip-card-back">
+                     <div class="text">
+                        <h3>Prajitura</h3>
+                        <p>Lorem ipsum dolor sit amet, 
+                          consectetur adipiscing elit.
+                           Sed auctor, tellus eu bibendum 
+                           malesuada, odio mi feugiat ipsum, 
+                           vel blandit enim eros et risus.
+                            Sed bibendum, velit eu euismod 
+                            viverra, velit quam faucibus augue
+                            , a convallis eros sapien id purus.</p>
+                     </div>
+                   </div>
+               </div>
+            </div>
+            <!-- flip card end -->
+         </div>
+      </div>
+    </div>
+
+    
+
+    <div class="flip-main">
+      <div class="header" id="NUNTA">
+         <h1>Nunti</h1>
+       </div>
+      <div class="container">
+         <div class="row">
+            <!-- flip card start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                   <div class="flip-card-front">
+                      <img src="img/1.jpg" alt="flip-card">
+                   </div>
+                   <div class="flip-card-back">
+                      <div class="text">
+                         <h3>Prajitura</h3>
+                         <p>Lorem ipsum dolor sit amet, 
+                           consectetur adipiscing elit.
+                            Sed auctor, tellus eu bibendum 
+                            malesuada, odio mi feugiat ipsum, 
+                            vel blandit enim eros et risus.
+                             Sed bibendum, velit eu euismod 
+                             viverra, velit quam faucibus augue
+                             , a convallis eros sapien id purus.</p>
+                      </div>
+                   </div>
+               </div>
+            </div>
+            <!-- flip card end -->
+            <!-- flip card start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                   <div class="flip-card-front">
+                      <img src="img/2.jpg" alt="flip-card">
+                   </div>
+                   <div class="flip-card-back">
+                     <div class="text">
+                        <h3>Prajitura</h3>
+                        <p>Lorem ipsum dolor sit amet, 
+                          consectetur adipiscing elit.
+                           Sed auctor, tellus eu bibendum 
+                           malesuada, odio mi feugiat ipsum, 
+                           vel blandit enim eros et risus.
+                            Sed bibendum, velit eu euismod 
+                            viverra, velit quam faucibus augue
+                            , a convallis eros sapien id purus.</p>
+                     </div>
+                   </div>
+               </div>
+            </div>
+            <!-- flip card end -->
+            <!-- flip card start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                   <div class="flip-card-front">
+                      <img src="img/3.jpg" alt="flip-card">
+                   </div>
+                   <div class="flip-card-back">
+                     <div class="text">
+                        <h3>Prajitura</h3>
+                        <p>Lorem ipsum dolor sit amet, 
+                          consectetur adipiscing elit.
+                           Sed auctor, tellus eu bibendum 
+                           malesuada, odio mi feugiat ipsum, 
+                           vel blandit enim eros et risus.
+                            Sed bibendum, velit eu euismod 
+                            viverra, velit quam faucibus augue
+                            , a convallis eros sapien id purus.</p>
+                     </div>
+                   </div>
+               </div>
+            </div>
+            <!-- flip card end -->
+            <!-- flip card start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                   <div class="flip-card-front">
+                      <img src="img/1.jpg" alt="flip-card">
+                   </div>
+                   <div class="flip-card-back">
+                     <div class="text">
+                        <h3>Prajitura</h3>
+                        <p>Lorem ipsum dolor sit amet, 
+                          consectetur adipiscing elit.
+                           Sed auctor, tellus eu bibendum 
+                           malesuada, odio mi feugiat ipsum, 
+                           vel blandit enim eros et risus.
+                            Sed bibendum, velit eu euismod 
+                            viverra, velit quam faucibus augue
+                            , a convallis eros sapien id purus.</p>
+                     </div>
+                   </div>
+               </div>
+            </div>
+            <!-- flip card end -->
+            <!-- flip card start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                   <div class="flip-card-front">
+                      <img src="img/2.jpg" alt="flip-card">
+                   </div>
+                   <div class="flip-card-back">
+                     <div class="text">
+                        <h3>Prajitura</h3>
+                        <p>Lorem ipsum dolor sit amet, 
+                          consectetur adipiscing elit.
+                           Sed auctor, tellus eu bibendum 
+                           malesuada, odio mi feugiat ipsum, 
+                           vel blandit enim eros et risus.
+                            Sed bibendum, velit eu euismod 
+                            viverra, velit quam faucibus augue
+                            , a convallis eros sapien id purus.</p>
+                     </div>
+                   </div>
+               </div>
+            </div>
+            <!-- flip card end -->
+            <!-- flip card start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                   <div class="flip-card-front">
+                      <img src="img/3.jpg" alt="flip-card">
+                   </div>
+                   <div class="flip-card-back">
+                     <div class="text">
+                        <h3>Prajitura</h3>
+                        <p>Lorem ipsum dolor sit amet, 
+                          consectetur adipiscing elit.
+                           Sed auctor, tellus eu bibendum 
+                           malesuada, odio mi feugiat ipsum, 
+                           vel blandit enim eros et risus.
+                            Sed bibendum, velit eu euismod 
+                            viverra, velit quam faucibus augue
+                            , a convallis eros sapien id purus.</p>
+                     </div>
+                   </div>
+               </div>
+            </div>
+            <!-- flip card end -->
+         </div>
+      </div>
+    </div>
+
+
+    <div class="flip-main">
+      <div class="header" id="BOTEZ">
+         <h1>Botezuri</h1>
+       </div>
+      <div class="container">
+         <div class="row">
+            <!-- flip card start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                   <div class="flip-card-front">
+                      <img src="img/1.jpg" alt="flip-card">
+                   </div>
+                   <div class="flip-card-back">
+                      <div class="text">
+                         <h3>Prajitura</h3>
+                         <p>Lorem ipsum dolor sit amet, 
+                           consectetur adipiscing elit.
+                            Sed auctor, tellus eu bibendum 
+                            malesuada, odio mi feugiat ipsum, 
+                            vel blandit enim eros et risus.
+                             Sed bibendum, velit eu euismod 
+                             viverra, velit quam faucibus augue
+                             , a convallis eros sapien id purus.</p>
+                      </div>
+                   </div>
+               </div>
+            </div>
+            <!-- flip card end -->
+            <!-- flip card start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                   <div class="flip-card-front">
+                      <img src="img/2.jpg" alt="flip-card">
+                   </div>
+                   <div class="flip-card-back">
+                     <div class="text">
+                        <h3>Prajitura</h3>
+                        <p>Lorem ipsum dolor sit amet, 
+                          consectetur adipiscing elit.
+                           Sed auctor, tellus eu bibendum 
+                           malesuada, odio mi feugiat ipsum, 
+                           vel blandit enim eros et risus.
+                            Sed bibendum, velit eu euismod 
+                            viverra, velit quam faucibus augue
+                            , a convallis eros sapien id purus.</p>
+                     </div>
+                   </div>
+               </div>
+            </div>
+            <!-- flip card end -->
+            <!-- flip card start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                   <div class="flip-card-front">
+                      <img src="img/3.jpg" alt="flip-card">
+                   </div>
+                   <div class="flip-card-back">
+                     <div class="text">
+                        <h3>Prajitura</h3>
+                        <p>Lorem ipsum dolor sit amet, 
+                          consectetur adipiscing elit.
+                           Sed auctor, tellus eu bibendum 
+                           malesuada, odio mi feugiat ipsum, 
+                           vel blandit enim eros et risus.
+                            Sed bibendum, velit eu euismod 
+                            viverra, velit quam faucibus augue
+                            , a convallis eros sapien id purus.</p>
+                     </div>
+                   </div>
+               </div>
+            </div>
+            <!-- flip card end -->
+            <!-- flip card start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                   <div class="flip-card-front">
+                      <img src="img/1.jpg" alt="flip-card">
+                   </div>
+                   <div class="flip-card-back">
+                     <div class="text">
+                        <h3>Prajitura</h3>
+                        <p>Lorem ipsum dolor sit amet, 
+                          consectetur adipiscing elit.
+                           Sed auctor, tellus eu bibendum 
+                           malesuada, odio mi feugiat ipsum, 
+                           vel blandit enim eros et risus.
+                            Sed bibendum, velit eu euismod 
+                            viverra, velit quam faucibus augue
+                            , a convallis eros sapien id purus.</p>
+                     </div>
+                   </div>
+               </div>
+            </div>
+            <!-- flip card end -->
+            <!-- flip card start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                   <div class="flip-card-front">
+                      <img src="img/2.jpg" alt="flip-card">
+                   </div>
+                   <div class="flip-card-back">
+                     <div class="text">
+                        <h3>Prajitura</h3>
+                        <p>Lorem ipsum dolor sit amet, 
+                          consectetur adipiscing elit.
+                           Sed auctor, tellus eu bibendum 
+                           malesuada, odio mi feugiat ipsum, 
+                           vel blandit enim eros et risus.
+                            Sed bibendum, velit eu euismod 
+                            viverra, velit quam faucibus augue
+                            , a convallis eros sapien id purus.</p>
+                     </div>
+                   </div>
+               </div>
+            </div>
+            <!-- flip card end -->
+            <!-- flip card start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                   <div class="flip-card-front">
+                      <img src="img/3.jpg" alt="flip-card">
+                   </div>
+                   <div class="flip-card-back">
+                     <div class="text">
+                        <h3>Prajitura</h3>
+                        <p>Lorem ipsum dolor sit amet, 
+                          consectetur adipiscing elit.
+                           Sed auctor, tellus eu bibendum 
+                           malesuada, odio mi feugiat ipsum, 
+                           vel blandit enim eros et risus.
+                            Sed bibendum, velit eu euismod 
+                            viverra, velit quam faucibus augue
+                            , a convallis eros sapien id purus.</p>
+                     </div>
+                   </div>
+               </div>
+            </div>
+            <!-- flip card end -->
+         </div>
+      </div>
+    </div>
+
+     <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+     <footer class="w3-center w3-padding-64 w3-creme-bg  " >
+      <a href="#home" class="w3-button w3-burntsienna-text w3-hover-pale-yellow w3-xlarge"><i class="fa fa-arrow-up w3-margin-right w3-burntsienna-text"></i>To the top</a>
+      <div class="w3-xlarge w3-section w3-burntsienna-text">
+          <i class="fa fa-facebook-official w3-hover-opacity "></i>
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+
+  <!-- Footer end. -->
+  </footer>
+ 
+
+
+</body>
+</html>
+
+
+

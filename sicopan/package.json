@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "config-ini-parser": "^1.6.1"
+  }
+}

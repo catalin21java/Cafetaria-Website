@@ -1,0 +1,6 @@
+id,nume_produs,img_dir,pret,categorie_produs
+1,amandina,images\showImg\fullDev.jpg,10,dulciuri
+2,cremes,images\showImg\photographer.jpg,20,tarte
+3,sufleu,images\showImg\dataAna.jpg,30,dulciuri
+4,rafaelo,images\showImg\blogger.jpg,40,tarte
+5,tort,images\showImg\appDev.jpg,50,tarte

@@ -1,0 +1,317 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sicopan</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">  
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+    <link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+    <link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet"  href="style.css" >
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+   
+
+
+
+     <!-- Swiper CSS -->
+     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+    
+
+    </head>
+<body >
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-large w3-padding-l ">
+  <div class="w3-bar" id="myNavbar">
+      <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right w3-creme"
+          href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+          <i class="fa fa-bars"></i>
+      </a>
+      <a class="w3-bar-item  w3-hide-medium" href="index.html" style="padding-left: 0%; padding-top: 0%; padding-bottom: 0%;"> <img style="height: 45px; width: 100px; " src="images/sicopan.png" alt="Sicopan"></a>
+      <a href="index.html#noutati" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-creme"><i class="fa fa-exclamation"></i> NOUTATI</a>
+      <a href="Torturi.html" class="w3-bar-item w3-button w3-hide-small w3-creme"><i class="fa fa-birthday-cake"></i> TORTURI</a>
+      <a href="Prajituri.html" class="w3-bar-item w3-button w3-hide-small w3-creme"><i class="fa fa-th"></i> PRAJITURI</a>
+      <a href="evenimente.html"  class="w3-bar-item w3-button w3-hide-small w3-creme "><i class="fa fa-user"></i> EVENIMENTE</a>
+      <a href="index.html#about" class="w3-bar-item w3-button w3-hide-small w3-creme"><i class="fa fa-bookmark"></i> COMENZI</a>
+      </a>
+  </div>
+
+
+      <!-- Navbar on small screens -->
+      <div id="navDemo" class="w3-bar-block w3-creme-bg w3-hide w3-hide-large w3-hide-medium ">
+          <a href="index.html#noutati" class="w3-bar-item w3-button w3-burntsienna-text w3-center" onclick=toggleFunction()><i class="fa fa-exclamation"></i> NOUTATI</a>
+          <a href="Torturi.html" class="w3-bar-item w3-button w3-burntsienna-text w3-center" onclick=toggleFunction()><i class="fa fa-birthday-cake"></i> TORTURI</a>
+          <a href="Prajituri.html" class="w3-bar-item w3-button w3-burntsienna-text w3-center" onclick=toggleFunction()><i class="fa fa-th"></i> PRAJITURI</a>
+          <a href="evenimente.html" class="w3-bar-item w3-button w3-burntsienna-text w3-center" onclick=toggleFunction()><i class="fa fa-user"></i> EVENIMENTE</a>
+          <a href="index.html#about" class="w3-bar-item w3-button w3-burntsienna-text w3-center" onclick=toggleFunction()><i class="fa fa-bookmark"></i> COMENZI</a>
+        </div>
+  </div>
+</div>
+
+    <!-- VIDEO -->
+    <div class="video-section" id="home">
+
+        <video class="vide_art" autoplay muted loop>
+            <source src="resources/cake.mp4" type="video/mp4">
+            
+          Your browser does not support the video tag.
+          </video>
+
+    </div>
+
+
+
+     <!-- INCEPUT SITE-->
+    <div class="w3-padding-large description-section w3-burntsienna-text w3-margin-bottom" data-aos="zoom-in-up"  data-aos-duration="1500" >
+      
+         <div class="w3-content w3-container w3-padding-top-48" >
+            <h1 class="w3-center w3-xxlarge w3-burntsienna-text w3-padding w3-wide" style="font-family:Andalusia;">Despre Sicopan</h1>
+            <p class="w3-center w3-xlarge w3-hide-small " style="font-family: 'Times New Roman', Times, serif;"> 
+              Vă invităm într-o lume minunată a deserturilor!
+               Obținute din ingrediente de calitate, atent selectate 
+               de maeștri noștri cofetari, mânuite cu grijă și prezentate 
+               într-o formă care să te cucerească definitiv. Deserturile 
+               snoastre sunt pe cât de frumoase, pe atât de gustoase!
+            </p>
+            <p class="w3-center w3-hide-large w3-hide-medium"  style="font-family: 'Times New Roman', Times, serif;"> 
+              Vă invităm într-o lume minunată a deserturilor! 
+              Obținute din ingrediente de calitate, atent selectate
+               de maeștri noștri cofetari, mânuite cu grijă și prezentate într-o formă 
+               care să te cucerească definitiv. Deserturile noastre sunt pe cât de frumoase, pe atât de gustoase!
+           
+            </p>
+         </div>
+
+        
+    </div>
+       
+   
+
+
+<div id="noutati"></div>
+<br>
+  <section class="w3-burntsienna w3-margin-top"   data-aos="zoom-in-up"  data-aos-duration="1500">
+    <br>
+    <div class="header">
+      <h11>Noutati </h11>
+    </div>
+    <br>
+    <div class="container swiper ">
+      <div class="slide-container">
+        <div class="card-wrapper swiper-wrapper">
+          <div class="card swiper-slide">
+            <div class="image-box">
+              <img src="images/showImg/amandina.jpg" alt="" />
+            </div>
+            <div class="profile-details">
+              
+              <div class="name-job">
+                <h3 class="name">Amandina</h3>
+                <h4 class="job">10ron/bucata</h4>
+              </div>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-box">
+              <img src="images/showImg/lavacake.jpg" alt="" />
+            </div>
+            <div class="profile-details">
+              
+              <div class="name-job">
+                <h3 class="name">Lava Cake</h3>
+                <h4 class="job">20ron/bucata</h4>
+              </div>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-box">
+              <img src="images/showImg/cheesecake.jpg" alt="" />
+            </div>
+            <div class="profile-details">
+             
+              <div class="name-job">
+                <h3 class="name">Cheesecake</h3>
+                <h4 class="job">15/bucata</h4>
+              </div>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-box">
+              <img src="images/showImg/cremsnit.JPG" alt="" />
+            </div>
+            <div class="profile-details">
+              
+              <div class="name-job">
+                <h3 class="name">Cremsnit</h3>
+                <h4 class="job">8ron/bucata</h4>
+              </div>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-box">
+              <img src="images/showImg/ecler.jpg" alt="" />
+            </div>
+            <div class="profile-details">
+              
+              <div class="name-job">
+                <h3 class="name">Ecler</h3>
+                <h4 class="job">12ron/bucata</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <div class="swiper-button-next swiper-navBtn w3-burntsienna"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+    <br> 
+    <style>
+           
+        .swiper-navBtn{
+          color: #672901;
+          transition: color 0.3s ease;
+        }
+        .swiper-navBtn:hover{
+          color: #672901;
+        }
+        .swiper-navBtn::before,
+        .swiper-navBtn::after{
+          font-size: 35px;
+        }
+        .swiper-button-next{
+          right: 0;
+        }
+        .swiper-button-prev{
+          left: 0;
+        }
+        .swiper-pagination-bullet{
+          background-color: #d1c195;
+          opacity: 1;
+        }
+        .swiper-pagination-bullet-active{
+          background-color: #d1c195;
+        }
+
+        @media screen and (max-width: 768px) {
+          .slide-content{
+            margin: 0 10px;
+          }
+          .swiper-navBtn{
+            display: none;
+          }
+        }
+ 
+    </style>
+
+</section>
+
+    
+
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+   
+
+
+
+   
+
+    <!-- FORUM FUNCTIONAL -->
+    <div id="about"></div>
+    <div class="w3-content w3-container w3-padding-22 w3-burntsienna-text "style="position: relative;padding: 100px;"  data-aos="zoom-in-up"  data-aos-duration="1500">
+        <h3 class="w3-center w3-xxxlarge" >COMENZI SICOPAN</h3>
+        <p class="w3-center w3-xlarge" ><em>Pentru fiecare comandă completați formularul de mai jos</em></p>
+
+     
+                
+                <form action="https://formsubmit.co/catalinborzei@yahoo.com" method="POST" >
+                    <div class="w3-row-padding w3-padding-top-64 " style="margin:8px -16px 8px -16px ">
+                        <div class="w3-half">
+                            <input class="w3-input w3-border" type="text" placeholder="Nume" required name="Nume">
+                        </div>
+                        <div class="w3-half">
+                            <input class="w3-input w3-border" type="text" placeholder="Prenume" required name="Prenume">
+                        </div>
+                    </div>
+                    <div style="margin:0 0px 8px 0px">
+                    <input class="w3-input w3-border" type="number" placeholder="Numar Telefon" required name="Numar"></div>
+                    <div style="margin:0 0px 8px 0px">
+                    <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></div>
+                    <div style="margin:0 0px 8px 0px">
+                        <input class="w3-input w3-border" type="datetime-local" placeholder="Data ridicarii comenzii" required name="Data"></div>
+                    <div style="margin:0 0px 8px 0px">
+                    <input class="w3-input w3-border" type="text" placeholder="Comanda (Nume Produse insotite de cantitate/kg)" required name="Comanda"></div>
+
+                    <div style="margin:0 0px 8px 0px">
+                      <input class="w3-input w3-border" type="text" placeholder="Cantitate (Introduceți cantitatea estimativa, va rugam specificati daca sunt kilograme sau bucati; rețineți )" required name="Cantitate"></div>
+
+                   <div style="margin:0 0px 8px 0px">
+                      <input class="w3-input w3-border" type="text" placeholder="Forma tortului(Doar daca este cazul - alegeti cerc, dreptunghi, patrat, inima, etc.)" required name="Forma tortului"></div>
+
+                    <div style="margin:0 0px 8px 0px">
+                      <input class="w3-input w3-border" type="text" placeholder="Decorare produs (De exemplu Tort decorat cu flori si macarons, pentru un băiat de 12 ani, cu poza trimisa pe whatsapp, email)" required name="Decorare produs"></div>
+                          
+                    <div style="margin:0 0px 8px 0px">
+                      
+                      <select id="dropdown" class="w3-border w3-input"required name="Loc preluare comanda">
+                        <option value="" disabled selected>Locul de unde ridicati comanda </option>
+                        <option value="Laborator Santuhalm">Laborator Santuhalm</option>
+                        <option value="Cofetaria Zamfirescu" >Cofetaria Zamfirescu</option>
+                       
+                      </select>
+                    
+                    <p class="w3-large w3-margin-top w3-center" >Pentru orice detalii va vom contacta telefonic sau prin email</p>
+                    <br>
+                    <div class="w3-content w3-center">
+                      <button class="w3-button w3-burntsienna"  type="submit" >
+                        <i class="fa fa-paper-plane w3-creme"></i> <p style="color: #d1c195; ">TRIMITE COMANDA</p>
+                </button>
+                    </div>
+                   
+                </form>
+                
+
+               
+
+            </div>
+        </div>
+    </div>
+
+
+    
+   
+ <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+    <footer class="w3-center w3-padding-64 w3-burntsienna  " >
+        <a href="#home" class="w3-button w3-creme w3-hover-pale-yellow w3-xlarge"><i class="fa fa-arrow-up w3-margin-right w3-creme"></i>To the top</a>
+        <div class="w3-xlarge w3-section w3-creme">
+            <i class="fa fa-facebook-official w3-hover-opacity "></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+
+    <!-- Footer end. -->
+    </footer>
+
+    <script src="scripts.js"></script> 
+</body>
+   
+</html>
